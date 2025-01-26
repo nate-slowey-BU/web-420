@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #f4a261;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+nav {
+  background-color: #264653;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  padding: 2rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+.top-books {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.book {
+  background-color: #e9c46a;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  width: calc(30% - 1rem);
+}
+.book img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.hours,
+.contact {
+  background-color: #2a9d8f;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+footer {
+  background-color: #264653;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
